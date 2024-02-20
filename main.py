@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-binary = "./geckodriver-v0.34.0-win32/geckodriver.exe"
+BINARY = "./your_driver_file/your_driver"
 
 NAME = "your_name"
 SURNAME = "your_surname"
@@ -15,7 +15,10 @@ COMMENT = "your complaint"
 
 
 def run():
+    # Uncomment the driver your need
     driver = webdriver.Firefox()
+    # driver = webdriver.Chrome()
+    # driver = webdriver.Edge()
 
     driver.get("https://stanlib.com/contact-us-individual/")
 
