@@ -23,21 +23,21 @@ Extract the repo and the webdriver, place the webdriver in the root of the proje
 In your terminal locate the project folder and enter it:
 
 - Windows: `cd Desktop/stanlib_complainer/`
-- MacOS: `cd Desktop/stablib_complainer/`
+- MacOS / Linux: `cd Desktop/stablib_complainer/`
 
 Enable the virtual enviroment:
 
 - Windows: `python -m venv venv`
-- MacOSX: `python -m venv venv`
+- MacOSX / Linux: `python -m venv venv`
 
 Activate the enviroment:
 
 - Windows CMD: `venv\Scripts\activate.bat`
 - Windows Powershell: `venv\Scripts\Activate.ps1`
-- MacOS: `source myvenv/bin/activate`
+- MacOS / Linux: `source myvenv/bin/activate`
 
 Install the requirements:
- - Windows / MacOs: `pip install -r requirements.txt`
+ - Windows / MacOs / Linux: `pip install -r requirements.txt`
 
 Open the main.py in an editor: Notepad, VsCode, Pycharm etc.
 And change the values that are provided in CAPITALS
